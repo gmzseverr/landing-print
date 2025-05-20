@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PhotoPrint Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&family=Titan+One&family=Ultra&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="25"
+        height="25"
+        fill="currentColor"
+        class="bi bi-camera-fill"
+        viewBox="0 0 16 16"
+      >
+        <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+        <path
+          d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0"
+        />
+      </svg>
+      <h1>PhotoPrint</h1>
+    </header>
+    <section class="hero">
+        <h2>
+          <span class="block">100 Photos for 1000 RSD?</span>
+          <span class="block text-primary"> Yes, It’s Possible!</span>
+        </h2>
+        <p>
+          Limited time offer for high-quality photo prints delivered to your
+          doorstep.
+        </p>
+      
+        <div class="description">
+          <h3>How It Works</h3>
+      
+          <div class="description-box">
+            <div class="circle">1</div>
+            <div class="description-text">
+              <h4>Upload Your Photos</h4>
+              <p>Select up to 100 photos from your device or cloud storage</p>
+            </div>
+          </div>
+      
+          <div class="description-box">
+            <div class="circle">2</div>
+            <div class="description-text">
+              <h4>Customize Your Order</h4>
+              <p>Select size and quantity</p>
+            </div>
+          </div>
+      
+          <div class="description-box">
+            <div class="circle">3</div>
+            <div class="description-text">
+              <h4>Receive Your Prints</h4>
+              <p>Get your photos delivered in 2–3 business days</p>
+            </div>
+          </div>
+        </div>
+      
+        <button>START NOW</button>
+        <p class="offer-p">Offer ends in:</p>
+      
+        <div class="timer">
+          <div class="time-group">
+            <div id="hours" class="time-box">23</div>
+            <div class="time-label">Hours</div>
+          </div>
+       
+          <div class="time-group">
+            <div id="minutes" class="time-box">59</div>
+            <div class="time-label">Minutes</div>
+          </div>
+       
+          <div class="time-group">
+            <div id="seconds" class="time-box">59</div>
+            <div class="time-label">Seconds</div>
+          </div>
+        </div>
+      </section>
+      <section class="trust">
+        <h3>Over 1,200 customers have already used this offer!</h3>
+        <div class="benefits">
+        <div class="benefit-box">
+            <div class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z"/>
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0"/>
+              </svg></div>
+            <div class="description-text">
+              <h4>Fast Printing</h4>
+              <p>Ready in 24 hours, delivered in 2-3 days</p>
+            </div>
+          </div>
+          <div class="benefit-box">
+            <div class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+              </svg></div>
+            <div class="description-text">
+              <h4>Excellent Quality</h4>
+              <p>Premium photo paper and vibrant colors</p>
+            </div>
+          </div>
+          <div class="benefit-box">
+            <div class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+              </svg></div>
+            <div class="description-text">
+              <h4>Home Delivery</h4>
+              <p>Secure packaging delivered to your door</p>
+            </div>
+          </div>
+          </div>
+      </section>
+      <section class="testimonials">
+        <h3>What Our Customers Say</h3>
+        
+        <div class="comment-boxes">
+            <div class="comment-box">
+              <div class="stars">★★★★★</div>
+              <p>"Amazing service, the photos were perfect quality!"</p>
+              <div class="customer">
+                <img src="https://media.istockphoto.com/id/1487465664/tr/foto%C4%9Fraf/portrait-employee-and-asian-woman-with-happiness-selfie-and-confident-entrepreneur-with.jpg?s=1024x1024&w=is&k=20&c=hD4nKFv4Gj8GIgArUVU5W96OJ_qGV0VZH6A56zAE-Ns=" alt="Customer Photo" class="customer-photo" />
+                <span class="customer-name">Emily R.</span>
+              </div>
+            </div>
+            
+            <div class="comment-box">
+              <div class="stars">★★★★★</div>
+              <p>"My order arrived super fast, thank you!"</p>
+              <div class="customer">
+                <img src="https://media.istockphoto.com/id/1282821098/tr/foto%C4%9Fraf/%C5%9Fehirde-mutlu-gen%C3%A7-adam.jpg?s=1024x1024&w=is&k=20&c=L-Zno1fh7kmnK7lw9W9BWqkiV3SKkJGSQ7Fgyl7Dtw8=" alt="Customer Photo" class="customer-photo" />
+                <span class="customer-name">James T.</span>
+              </div>
+            </div>
+            
+            <div class="comment-box">
+              <div class="stars">★★★★☆</div>
+              <p>"A little delay but the quality is outstanding."</p>
+              <div class="customer">
+                <img src="https://media.istockphoto.com/id/1326417862/tr/foto%C4%9Fraf/young-woman-laughing-while-relaxing-at-home.jpg?s=612x612&w=0&k=20&c=uRqyJyz8_eTsJPPDD8VB3ial5AdnFZm0guxk5257uok=" alt="Customer Photo" class="customer-photo" />
+                <span class="customer-name">Sophia L.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="apps-container">
+              <h3>Check reviews from happy customers on our apps</h3>
+              <div class="apps">
+                  <div class="app">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" class="bi bi-google-play" viewBox="0 0 16 16">
+                      <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055zM1 13.396V2.603L6.846 8zM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27"/>
+                    </svg>
+                    <h4>Google Play</h4>
+                  </div>
+                  <div class="app">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff" class="bi bi-apple" viewBox="0 0 16 16">
+                      <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516s1.52.087 2.475-1.258.762-2.391.728-2.43m3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422s1.675-2.789 1.698-2.854-.597-.79-1.254-1.157a3.7 3.7 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56s.625 1.924 1.273 2.796c.576.984 1.34 1.667 1.659 1.899s1.219.386 1.843.067c.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758q.52-1.185.473-1.282"/>
+                    </svg>
+                    <h4>App Store</h4>
+                  </div>
+                </div>
+              </div>
+          
+      </section>
+      <section class="sticky-panel">
+        <div class="left-panel">
+          <p>Use your discount while it lasts!</p>
+          <div class="timer">
+            <div class="time-group">
+              <div id="hours" class="time-box">23</div>
+              <div class="time-label">Hours</div>
+            </div>
+            <div class="time-group">
+              <div id="minutes" class="time-box">59</div>
+              <div class="time-label">Minutes</div>
+            </div>
+            <div class="time-group">
+              <div id="seconds" class="time-box">59</div>
+              <div class="time-label">Seconds</div>
+            </div>
+          </div>
+        </div>
+        <button>SEND PHOTOS</button>
+      </section>
+      
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
